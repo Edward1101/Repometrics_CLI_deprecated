@@ -6,7 +6,7 @@ with open("README.md", "r", encoding='utf-8') as fh:
 
 setup(
     name='Repometrics_cli',
-    version='0.0.1',
+    version='0.0.3',
     packages=find_packages(),
     url='https://github.com/Edward1101/repometrics',
     license='MIT',

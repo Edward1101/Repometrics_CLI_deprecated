@@ -8,7 +8,7 @@ setup(
     name='Repometrics_cli',
     version='0.0.1',
     packages=find_packages(),
-    url='https://github.com/alextxj/RepoMetrics',
+    url='https://github.com/Edward1101/repometrics',
     license='MIT',
     author='Edward Li Shuyao',
     author_email='lishuyao1101@hotmail.com',

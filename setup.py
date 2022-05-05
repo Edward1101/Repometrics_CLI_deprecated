@@ -28,7 +28,7 @@ setup(
     python_requires='>=3.8',
     entry_points={
         'console_scripts': [
-            'Repometrics = Repometrics.Repometrics:main'
+            'Repometrics_CLI = Repometrics_CLI.Repometrics_CLI:main'
         ]
     }
 )

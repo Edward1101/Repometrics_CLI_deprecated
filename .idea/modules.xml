@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/repometrics.iml" filepath="$PROJECT_DIR$/.idea/repometrics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Repometrics/.idea/Repometrics.iml" filepath="$PROJECT_DIR$/../Repometrics/.idea/Repometrics.iml" />
     </modules>
   </component>
 </project>

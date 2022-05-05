@@ -24,7 +24,7 @@ class GetRepoMetrics:
                             metavar='by_xxxx',
                             dest='detect_method',
                             default='by_extension',
-                            choices=['by_extension', 'by_pygments'],
+                            choices=['by_extension', 'by_content'],
                             type=str,
                             help="choose detect method to detect file programing language between 'by_extension' and" \
                                  " 'by_pygments'. Default with 'by_extension' ")
@@ -55,8 +55,8 @@ class GetRepoMetrics:
     def detect_file_language(self):
         if self.args.detect_method == 'by_extension':
             detect_detail_dict = self._detect_file_language_by_extension()
-        elif self.args.detect_method == 'by_pygments':
-            detect_detail_dict = self._detect_file_language_by_pygments()
+        elif self.args.detect_method == 'by_content':
+            detect_detail_dict = self._detect_file_language_by_content()
         self._show_conclusion(detect_detail_dict)
 
     def _detect_file_language_by_extension(self):
@@ -93,7 +93,7 @@ class GetRepoMetrics:
     #     # use guesslang to
     #     pass
 
-    def _detect_file_language_by_pygments(self) -> list:
+    def _detect_file_language_by_content(self) -> list:
         """
         # use file extension to decide file language
         :return: list of dict contain file path and detected programing language

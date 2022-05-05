@@ -1,14 +1,14 @@
 from __future__ import print_function
 from setuptools import setup, find_packages
 
-with open("README.md", "r", encoding='utf-8') as fh:
+with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name='Repometrics_cli',
-    version='0.0.3',
+    name='Repometrics_CLI',
+    version='0.0.1',
     packages=find_packages(),
-    url='https://github.com/Edward1101/repometrics',
+    url='https://github.com/Edward1101/Repometrics_CLI',
     license='MIT',
     author='Edward Li Shuyao',
     author_email='lishuyao1101@hotmail.com',
